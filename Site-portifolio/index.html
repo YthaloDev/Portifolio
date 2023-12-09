@@ -7,61 +7,90 @@
     <title>Bem vindo ao meu projeto sobre mim!</title>
 </head>
 <body>
+    <div id="top"></div>
+
     <h1>Projeto para mostrar habilidades minhas!</h1>
     <br>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit deserunt sunt quidem eos cumque voluptas, doloribus, repellendus non quos, repellat eveniet tempora ullam necessitatibus? Necessitatibus exercitationem facere error in. Delectus!</p>
+    <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit deserunt sunt quidem eos cumque voluptas, doloribus, repellendus non quos, repellat eveniet tempora ullam necessitatibus? Necessitatibus exercitationem facere error in. Delectus!</p>
     
     <div class="ythalo">
         <br>
-        <h2>Sobre mim</h2>
+        <h2 id="sobre-mim">Sobre mim</h2>
 
-        <p>Me chamo Ythalo, e este é o meu primeiro site público para mostrar um pouco das minhas habilidades. Gosto de programar em Python e tenho interesse nas áreas de Data Science e Machine Learning, ambas muito aplicadas em Python. Estou estudando para melhorar a cada dia mais.</p>
+        <p class="texto">Me chamo Ythalo, tenho 19 anos e este é o meu primeiro site público para mostrar um pouco das minhas habilidades. Gosto de programar em Python e tenho interesse nas áreas de Data Science e Machine Learning, ambas muito aplicadas em Python. Estou estudando para melhorar a cada dia mais.</p>
     </div>
 
-    <div class="Vida Academica">
+    <div class="vida-academica">
         <br>
         <h2>Vida Academica</h2>
-        <li>Instituto Federal Goiano - Curso Técnco em informática</li>
-        <p>Périodo: 2019-2021, Ensino Médio integrado com curso técnico</p>
+        <ul>
+            <li>Instituto Federal Goiano - Curso Técnco em informática</li>
+            <p>Périodo: 2019-2021, Ensino Médio integrado com curso técnico</p>
+        
+        
+            <li>Unimontes - Engenharia de Sistemas</li>
+            <p>Périodo: 2022-2027, Universidade Estadual de Montes Claros Engenharia de Sistemas 10 semestres</p>
+        
 
-        <li>Unimontes - Engenharia de Sistemas</li>
-        <p>Périodo: 2022-2027, Universidade Estadual de Montes Claros Engenharia de Sistemas 10 semestres</p>
-
-        <li>UniFill - Análise e Desenvolvimento de Sistemas</li>
-        <p>Périodo: 2023-2025, Instituição de Ensino Superior Análise e Desenvolvimento de Sistemas 4 semestres</p>
-
-        <blockquote>
-            <h3>Projetos</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non neque aperiam deserunt ullam. Eos nemo voluptas modi ut commodi eius ad illum non quisquam, ratione fuga, adipisci cumque ex cum.</p>
-        </blockquote>
-
-        <blockquote>
-            <h3>Faculdade</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, nostrum numquam! Veritatis porro est asperiores quia minima deleniti nostrum vero odio nulla ex facilis maiores officia, rem reiciendis, numquam deserunt.</p>
-        </blockquote>
+            <li>UniFill - Análise e Desenvolvimento de Sistemas</li>
+            <p>Périodo: 2023-2025, Instituição de Ensino Superior Análise e Desenvolvimento de Sistemas 4 semestres</p>
+        </ul>
 
         <blockquote>
-            <h3>Cursos</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, nostrum numquam! Veritatis porro est asperiores quia minima deleniti nostrum vero odio nulla ex facilis maiores officia, rem reiciendis, numquam deserunt.</p>
+            
+            <div class="projetos">
+            <h3 id="projeto">Projetos</h3>
+                <blockquote>
+                    <h4>ProjetoX</h4>
+                    <p>Consiste em criar um porfolio de site usando Html e Css, criado junto com meus amigos para que possamos nos desenvolver. </p>
+
+                    <h4>Projeto Clima</h4>
+                    <p>Nesse projeto, criei um código que, ao inserir o CEP, possibilita visualizar o clima, horário e localidade correspondentes, utilizando Python.</p>
+
+                    <h4>Projeto Moedas</h4>
+                    <p>Nesse projeto, eu criei um código que permite visualizar em tempo real as cotações das principais moedas, como Euro, Dólar, Real, entre outras. Além disso, o código exibe um gráfico que ilustra a distância entre as moedas, utilizando Python. </p>
+                </blockquote>
+            </div>
+
+            <br>
+
+                <div class="cursos">
+                <h3 id="curso">Cursos</h3>
+                <blockquote>
+                    <h4>Formação - Python para Data Science</h4>
+                    <p>Alura, 70h, 25/04/2023</p>
+
+                    <h4>Formação - Python Orientado a Objetos</h4>
+                    <p>Alura, 93h, 09/02/2023</p>
+
+                    <h4>Curso Corretor Ortográfico em Python: aplicando técnicas de NLP</h4>
+                    <p>Alura, 10h, 25/04/2023</p>
+
+                    <h4>Curso Classificação com SKlearn</h4>
+                    <p>Alura, 8h, 15/05/2023</p>
+                </blockquote>
+                </div>
+            </div>
         </blockquote>
 
     </div>
 
-    <div class="profission">
+    <div>
         <br>
-        <h2>Vida profissional</h2>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, dolorem. Nemo dicta saepe id, amet officia nisi ratione inventore animi minus accusantium! Placeat facere adipisci facilis quae, culpa odio quibusdam!</p>
+        <h2 class="profission">Vida profissional</h2>
+        <h3 id="texto_monitor"> Monitor de Inglês</h3>
+        <p class="texto">Eu ocupava um cargo em que auxiliava o professor no atendimento aos alunos durante o período de aula, trabalhando um total de 8 horas por semana. Minhas responsabilidades incluíam ministrar aulas para os alunos (no mesmo nível de um professor), auxiliar o professor na preparação de materiais e corrigir tarefas de até dois níveis abaixo do meu.</p>
+        <br>
     </div>
 
 
     <nav>
         <div class="links">
-            <a href="www.google.com" target="_blank"> Home</a>
+            <a href="#top">Home</a>
             <br>
-            <a href="www.youtube.com" target="_blank">Sobre</a>
+            <a href="https://www.youtube.com/watch?v=IzXqWeSMWOc" target="_blank">Sobre</a>
             <br>
-            <a href="www.whatsapp-web.com" target="_blank">Contato</a>
+            <a href="http://ww1.clonacartao.com" target="_blank">Contato</a>
         </div>
     </nav>
 

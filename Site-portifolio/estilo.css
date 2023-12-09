@@ -1,0 +1,35 @@
+body {
+    background-color:cadetblue; /* Substitua pela cor desejada usando código hexadecimal, RGB, ou nome da cor */
+}
+.projetos{
+    border: 3px solid green;
+    padding-left: 20px;
+}
+.cursos{
+    border: 3px solid red;
+    padding-left: 20px;
+}
+.texto{
+    font-size: 18px;
+}
+.links{
+    font-size: 25px;
+    text-align: center;
+}
+.profission{
+    font-size: 40px;
+    text-align: center;
+}
+#projeto{
+    font-size: 25px;
+}
+#curso{
+    font-size: 25px;
+}
+#sobre-mim{
+    font-size: 35px;
+    text-align: center;
+}
+#texto_monitor{
+    font-size: 24px;
+}
