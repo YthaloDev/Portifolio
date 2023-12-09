@@ -1,0 +1,47 @@
+body{
+    background-color: bisque;
+}
+.caixa-email{
+    margin-left: 20px;
+    width: 220px;
+}
+.caixa-texto{
+    margin-left: 20px;
+    width: 280px;
+    height: 130px;
+    
+    resize: horizontal;
+    overflow: auto;
+}
+.links{
+    font-size: 20px;
+    text-align: center;
+}
+.botao{
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 200px;
+    width: 80px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.botao:hover{
+    background-color: darkblue;
+}
+@keyframes flash {
+    0%, 50%, 100% {
+        background-color: #3498db;
+    }
+    25%, 75% {
+        background-color: #217dbb;
+    }
+}
+.botao:active {
+    animation: flash 0.6s ease;
+}
+#texto{
+    vertical-align: top;
+}
