@@ -1,5 +1,5 @@
 body {
-    background-color:cadetblue; /* Substitua pela cor desejada usando código hexadecimal, RGB, ou nome da cor */
+    background-color:cadetblue; 
 }
 .projetos{
     border: 3px solid green;
@@ -27,6 +27,14 @@ body {
 .profission{
     font-size: 40px;
     text-align: center;
+}
+.imagem{
+    width: 200px; 
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.imagem:hover{
+    transform: scale(1.1);
 }
 #projeto{
     font-size: 25px;
